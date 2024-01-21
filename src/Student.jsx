@@ -1,4 +1,4 @@
-import PropTypes from 'prop-types';
+import propTypes from 'prop-types';
 
 function Student(props) {
   return (
@@ -11,9 +11,9 @@ function Student(props) {
 }
 
 Student.propTypes = {
-  name: PropTypes.string,
-  age: PropTypes.number,
-  isStudent: PropTypes.bool,
+  name: propTypes.string,
+  age: propTypes.number,
+  isStudent: propTypes.bool,
 };
 Student.defaultProps = {
   name: 'Guest',
